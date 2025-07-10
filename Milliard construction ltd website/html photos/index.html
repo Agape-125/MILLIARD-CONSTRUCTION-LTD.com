@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MILLIARD CONSTRUCTION LTD</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden; /* Hide scrollbar during preloading */
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, black 0%, black 50%, white 50%, white 100%); /* Webpage background gradient */
+        }
+
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #1a2a4c; /* Dark blue background for preloader */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999; /* Ensure it's on top of everything */
+            transition: opacity 1s ease-out;
+        }
+
+        .preloader-content {
+            text-align: center;
+        }
+
+        .preloader-text {
+            color: #fff;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .loading-bar-container {
+            width: 300px;
+            height: 20px;
+            background-color: #334466; /* Slightly lighter dark blue for container */
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .loading-bar {
+            height: 100%;
+            width: 0%;
+            background-color: #ffd700; /* Gold/yellow color for the loading bar */
+            border-radius: 10px;
+            animation: fillBar 3s forwards; /* Animation for filling the bar */
+            position: absolute;
+        }
+
+        @keyframes fillBar {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 100%;
+            }
+        }
+
+        /* Optional: Add a simple fade-out for the preloader */
+        .preloader-hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        /* Content that will be shown after preloading */
+        .content {
+            display: none; /* Hidden by default */
+            padding: 20px;
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-text">Welcome to Milliard Construction ltd...</div>
+            <div class="loading-bar-container">
+                <div class="loading-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>MILLIARD CONSTRUCTION LTD</h1>
+        <img src="LOGO.png" width="1300px"  height="400px">
+<body
+background-image
+>
+<font color="grey">
+<h1>HOME</h1>
+<p>
+ <b>Milliard construction ltd</b> is an ideal firm of Architects ,engineers,project managers,and property valuation experts.<br> this institution is very suitable for your choice in considering who to be your partner in construction and its aspects</br>because of its passionate and experienced team in construction industry.</br>
+Milliard construction ltd has its office in Kigali-Rwanda, it is capable of undertaking different project which exist to serve</br> various purposes including commercial, residence, mixed use and other diverse structures.</br>
+We work with private as well as public institutions. Our pleasure is to print the vision of clients into reality.</p>
+<p>
+<h2>STATEMENT OF VISION, MISSION AND AIMS</h2>
+<b>VISION</b><br>
+<b>To become the last resort construction firm in Rwanda and Beyond.<br></b>
+<b>MISSION</b><br>
+<b>To provide a very reliable architectural design, project management, civil engineering work, valuation -<br> services in accordance of the client tastes and satisfaction.<br></b>
+<b>AIMS</b>
+<br>Milliard construction ltd is aimed at:
+<br>
+<ul>
+<li>Providing the best platform to work hand in hand with the clients to achieve the accountability.</li>
+<li>Providing a very reliable service of integrity.</li>
+<li>Emphasizing on reducing errors in order enforce the quality culture.</li>
+<li>Making quality control a routine to comply with the existing standard measures.</li>
+<br>
+<b>VALUES</b>
+<br>
+<ul>
+<li>Stewardship</li>
+<li>Transparency</li>
+<li>Reliable</li>
+<li>Royalty</li>
+<li>Integrity</li>
+</ul>
+</p align="left">
+<h3>WHAT WE DO:</h3><br>
+<b>ARCHITECTURE</b>
+<br>
+<img src="ARCHITECTURE.jpg" width="200px" height="100px">
+<ul>
+<li>Design concept</li>
+<li>Design development</li>
+<li>Detail design and construction permit application</li>
+</ul>
+<b>ENGINEERING</b></br>
+<img src="ENGINEERING.jpg" width="200px" height="100px">
+<ul>
+<li>Civil engineering</li>
+<li>Electrical engineering</li>
+<li>Mechanical engineering</li>
+<li>Structural engineering</li>
+<li.Water engineering</li>
+<br>
+</ul>
+<b>PROJECT MANAGEMENT</b><br>
+<img src="MANAGEMENT.jpeg" width="200px" height="100px">
+<ul>
+<li>Design review</li>
+<li>Daily site supervision</li>
+<li>Project completion</li>
+<li>Progress report</li>
+</ul>
+<b>PROPERTY VALUATION</b>
+<br>
+<img src="VALUATION.jpg" width="200px" height="100px">
+<ul>
+<li>Valuation of fixed assets</li>
+</ul>
+<b>QUANTITY SURVEYING</b>
+<br>
+<img src="QUANTITY.jpg" width="200px" height="100"px>
+<ul>
+<li>Preparation of bills of quantity/ cost estimation</li>
+<li>Preparation of contract</li>
+</ul>
+</p>
+<h3>OUR ADDRESS</h3>
+<b>
+<ul>
+<li>Email:<a href="mailto:milliardconstruction@gmail.com">milliardconstruction@gmail.com</a></li>
+<li>Location: Kigali- Rwanda/RUGIGANA House</li>
+<li>Telephone:<a href="tel: +250790358480">+250790358480</a></li>
+<li>LinkedIn:<a href="https://www.LinkedIn.com/Milliard Construction ltd">Milliard Construction ltd</a>
+</li></b>
+</ul>
+</font>
+
+    </div>
+
+    <script>
+        window.addEventListener('load', () => {
+            const preloader = document.getElementById('preloader');
+            const content = document.querySelector('.content');
+
+            // Simulate a delay for demonstration purposes
+            setTimeout(() => {
+                preloader.classList.add('preloader-hidden');
+                // After the preloader fades out, display the content
+                preloader.addEventListener('transitionend', () => {
+                    preloader.style.display = 'none';
+                    content.style.display = 'block';
+                    document.body.style.overflow = 'auto'; // Re-enable scrolling
+                }, { once: true }); // Ensure the event listener only runs once
+            }, 3500); // Adjust this delay as needed (should be slightly longer than fillBar animation)
+        });
+    </script>
+
+</body>
+</html>
